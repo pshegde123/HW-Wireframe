@@ -1,0 +1,41 @@
+/*
+Stylesheet for homework ativity HW-Wireframe
+*/
+*{
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+}
+header{
+    width: 960px;
+    padding: 30px;
+    background:#ebebeb;
+    margin: 0 auto;
+}
+body{
+    background: #777;
+}
+.boxed{
+    border: 1px solid;
+    background:#ebebeb; 
+    width: 960px;
+    margin: 10px auto;
+    padding: 30px;
+}
+#left-section{
+    width: 495px;
+    background:#ebebeb; 
+    margin: 20px;
+    padding: 50px;
+    margin: 10px auto;
+    /*float: left;*/
+}
+#right-section{
+    width: 495px;
+    background:#ebebeb;
+    padding: 50px;
+    /*float: right;*/
+    margin: 20px auto; 
+}
