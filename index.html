@@ -6,10 +6,34 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <header>header</header>
-        <div class="boxed" >nav</div>
-        <div id="left-section">section</div>
-        <div id="right-section">aside</div>
-        <div class="boxed">footer</div>
+        <header>
+            header
+        </header>
+        <section class="boxed" >
+            nav
+        </section>
+        <!--<div> full is container for two blocks section and aside -->
+        <div id="full">
+            <section id="left-section">
+                section
+                <!--section block acts as container for article block-->
+                <!--sub-sections of <article> are <h1> and <p>-->
+                <article>
+                        article
+                        <h1>
+                            <strong>h1,h2,h3</strong>
+                        </h1>
+                        <p>
+                            p
+                        </p>
+                </article>
+            </section>
+            <aside>
+                aside
+            </aside >
+        </div>
+        <footer>
+            footer
+        </footer>
     </body>
 </html> 
