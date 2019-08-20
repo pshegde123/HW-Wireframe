@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>HW-Wireframe</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <title>HW-Wireframe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="flex-container">
         <header>
             header
         </header>
-        <section class="boxed" >
+        <section id="nav">
             nav
         </section>
-        <!--<div> full is container for two blocks section and aside -->
-        <div id="full">
+        <div id="hidden-div"> <!--container for section and aside blocks-->
             <section id="left-section">
                 section
                 <!--section block acts as container for article block-->
                 <!--sub-sections of <article> are <h1> and <p>-->
                 <article>
-                        article
-                        <h1>
-                            <strong>h1,h2,h3</strong>
-                        </h1>
-                        <p>
-                            p
-                        </p>
+                    article
+                    <h1>
+                        <strong>h1,h2,h3</strong>
+                    </h1>
+                    <p>
+                        p
+                    </p>
                 </article>
-            </section>
+            </section> <!--section id="left-section"-->
             <aside>
                 aside
-            </aside >
-        </div>
+            </aside>
+        </div> <!--div hidden-div-->
         <footer>
             footer
         </footer>
-    </body>
-</html> 
+    </div> <!--div class flex-container-->
+</body>
+
+</html>
